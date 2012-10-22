@@ -1,0 +1,12 @@
+﻿Build started 10/22/2012 12:50:56 PM.
+     1>Project "Y:\root\opal\src\win32\opal_dll_2010.vcxproj" on node 3 (Build target(s)).
+     1>CustomBuild:
+         Merging symbols ...
+         'MergeSym' is not recognized as an internal or external command,
+         operable program or batch file.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets(172,5): error MSB6006: "cmd.exe" exited with code 9009.
+     1>Done Building Project "Y:\root\opal\src\win32\opal_dll_2010.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.21

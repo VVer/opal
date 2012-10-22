@@ -1,0 +1,38 @@
+﻿Build started 10/22/2012 1:02:48 PM.
+     1>Project "Y:\root\opal\plugins\audio\VoiceAgeG729\VoiceAgeG729_2010.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\..\include /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /D _USRDLL /D PLUGIN_CODEC_DLL_EXPORTS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"..\..\..\bin\plugins\Debug\Voice Age G.729 Audio Codec\\" /Fd"Y:\root\opal\bin\plugins\Debug\/VoiceAgeG729_ptplugin.pdb" /Gd /TC /analyze- /errorReport:prompt g729codec.c
+         g729codec.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\..\bin\plugins\Debug\VoiceAgeG729_ptplugin.dll" /NOLOGO va_g729/va_g729.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\..\..\bin\plugins\Debug\VoiceAgeG729_ptplugin.pdb" /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"..\..\..\bin\plugins\Debug\Voice Age G.729 Audio Codec\VoiceAgeG729_ptplugin.lib" /MACHINE:X86 /SAFESEH /DLL "..\..\..\bin\plugins\Debug\Voice Age G.729 Audio Codec\g729codec.obj"
+     1>va_g729.lib(intf_g729a.obj) : error LNK2026: module unsafe for SAFESEH image.
+     1>va_g729.lib(COD_LD8A.OBJ) : error LNK2026: module unsafe for SAFESEH image.
+     1>va_g729.lib(PRE_PROC.OBJ) : error LNK2026: module unsafe for SAFESEH image.
+     1>va_g729.lib(POST_PRO.OBJ) : error LNK2026: module unsafe for SAFESEH image.
+     1>va_g729.lib(POSTFILA.OBJ) : error LNK2026: module unsafe for SAFESEH image.
+     1>va_g729.lib(DEC_LD8A.OBJ) : error LNK2026: module unsafe for SAFESEH image.
+     1>va_g729.lib(P_PARITY.OBJ) : error LNK2026: module unsafe for SAFESEH image.
+     1>va_g729.lib(TAMING.OBJ) : error LNK2026: module unsafe for SAFESEH image.
+     1>va_g729.lib(QUA_LSP.OBJ) : error LNK2026: module unsafe for SAFESEH image.
+     1>va_g729.lib(UTIL.OBJ) : error LNK2026: module unsafe for SAFESEH image.
+     1>va_g729.lib(QUA_GAIN.OBJ) : error LNK2026: module unsafe for SAFESEH image.
+     1>va_g729.lib(COR_FUNC.OBJ) : error LNK2026: module unsafe for SAFESEH image.
+     1>va_g729.lib(ACELP_CA.OBJ) : error LNK2026: module unsafe for SAFESEH image.
+     1>va_g729.lib(PITCH_A.OBJ) : error LNK2026: module unsafe for SAFESEH image.
+     1>va_g729.lib(FILTER.OBJ) : error LNK2026: module unsafe for SAFESEH image.
+     1>va_g729.lib(LPCFUNCA.OBJ) : error LNK2026: module unsafe for SAFESEH image.
+     1>va_g729.lib(LPCA.OBJ) : error LNK2026: module unsafe for SAFESEH image.
+     1>va_g729.lib(LSPDEC.OBJ) : error LNK2026: module unsafe for SAFESEH image.
+     1>va_g729.lib(DEC_GAIN.OBJ) : error LNK2026: module unsafe for SAFESEH image.
+     1>va_g729.lib(DE_ACELP.OBJ) : error LNK2026: module unsafe for SAFESEH image.
+     1>va_g729.lib(PRED_LT3.OBJ) : error LNK2026: module unsafe for SAFESEH image.
+     1>va_g729.lib(DEC_LAG3.OBJ) : error LNK2026: module unsafe for SAFESEH image.
+     1>va_g729.lib(LSPGETQ.OBJ) : error LNK2026: module unsafe for SAFESEH image.
+     1>va_g729.lib(GAINPRED.OBJ) : error LNK2026: module unsafe for SAFESEH image.
+            Creating library ..\..\..\bin\plugins\Debug\Voice Age G.729 Audio Codec\VoiceAgeG729_ptplugin.lib and object ..\..\..\bin\plugins\Debug\Voice Age G.729 Audio Codec\VoiceAgeG729_ptplugin.exp
+     1>..\..\..\bin\plugins\Debug\VoiceAgeG729_ptplugin.dll : fatal error LNK1281: Unable to generate SAFESEH image.
+     1>Done Building Project "Y:\root\opal\plugins\audio\VoiceAgeG729\VoiceAgeG729_2010.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.86

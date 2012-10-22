@@ -1,0 +1,11 @@
+﻿Build started 10/22/2012 1:08:37 PM.
+     1>Project "Y:\root\opal\plugins\audio\VoiceAgeG729\VoiceAgeG729_2010.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\..\bin\plugins\Release\VoiceAgeG729_ptplugin.dll" /INCREMENTAL:NO /NOLOGO va_g729/va_g729.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"..\..\..\bin\plugins\Release\VoiceAgeG729_ptplugin.pdb" /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"..\..\..\bin\plugins\Release\Voice Age G.729 Audio Codec\VoiceAgeG729_ptplugin.lib" /MACHINE:X86 /SAFESEH:NO /DLL "..\..\..\bin\plugins\Release\Voice Age G.729 Audio Codec\g729codec.obj"
+            Creating library ..\..\..\bin\plugins\Release\Voice Age G.729 Audio Codec\VoiceAgeG729_ptplugin.lib and object ..\..\..\bin\plugins\Release\Voice Age G.729 Audio Codec\VoiceAgeG729_ptplugin.exp
+         VoiceAgeG729_2010.vcxproj -> Y:\root\opal\plugins\audio\VoiceAgeG729\..\..\..\bin\plugins\Release\VoiceAgeG729_ptplugin.dll
+     1>Done Building Project "Y:\root\opal\plugins\audio\VoiceAgeG729\VoiceAgeG729_2010.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.56

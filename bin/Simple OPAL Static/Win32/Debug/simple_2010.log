@@ -1,0 +1,738 @@
+﻿Build started 10/22/2012 12:50:56 PM.
+     1>Project "Y:\root\opal\samples\simple\simple_2010.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W4 /WX- /Od /Oy- /D PTRACING=2 /D _CONSOLE /D _DEBUG /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Yc"ptlib.h" /Fp"..\..\bin\Simple OPAL Static\Win32\Debug\simple.pch" /Fo"..\..\bin\Simple OPAL Static\Win32\Debug\\" /Fd"..\..\bin\Simple OPAL Static\Win32\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt precompile.cxx
+         precompile.cxx
+     1>y:\root\ptlib\include\ptlib\pstring.h(2110): warning C4250: 'PStringStream' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>y:\root\ptlib\include\ptlib\pstring.h(2110): warning C4250: 'PStringStream' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>y:\root\ptlib\include\ptlib\channel.h(769): warning C4250: 'PChannel' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>y:\root\ptlib\include\ptlib\channel.h(769): warning C4250: 'PChannel' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>y:\root\ptlib\include\ptlib\channel.h(782): warning C4250: 'PNullChannel' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>y:\root\ptlib\include\ptlib\channel.h(782): warning C4250: 'PNullChannel' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>y:\root\ptlib\include\ptlib\indchan.h(314): warning C4250: 'PIndirectChannel' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>y:\root\ptlib\include\ptlib\indchan.h(314): warning C4250: 'PIndirectChannel' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>y:\root\ptlib\include\ptlib\file.h(544): warning C4250: 'PFile' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>y:\root\ptlib\include\ptlib\file.h(544): warning C4250: 'PFile' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>y:\root\ptlib\include\ptlib\textfile.h(124): warning C4250: 'PTextFile' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>y:\root\ptlib\include\ptlib\textfile.h(124): warning C4250: 'PTextFile' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>y:\root\ptlib\include\ptlib\sfile.h(181): warning C4250: 'PStructuredFile' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>y:\root\ptlib\include\ptlib\sfile.h(181): warning C4250: 'PStructuredFile' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>y:\root\ptlib\include\ptlib\conchan.h(101): warning C4250: 'PConsoleChannel' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>y:\root\ptlib\include\ptlib\conchan.h(101): warning C4250: 'PConsoleChannel' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W4 /WX- /Od /Oy- /D PTRACING=2 /D _CONSOLE /D _DEBUG /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Yu"ptlib.h" /Fp"..\..\bin\Simple OPAL Static\Win32\Debug\simple.pch" /Fo"..\..\bin\Simple OPAL Static\Win32\Debug\\" /Fd"..\..\bin\Simple OPAL Static\Win32\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cxx
+         main.cxx
+     1>y:\root\ptlib\include\ptlib\socket.h(537): warning C4250: 'PSocket' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>y:\root\ptlib\include\ptlib\socket.h(537): warning C4250: 'PSocket' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>y:\root\ptlib\include\ptlib\socket.h(628): warning C4250: 'PWinSock' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>y:\root\ptlib\include\ptlib\socket.h(628): warning C4250: 'PWinSock' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>y:\root\ptlib\include\ptlib\ipsock.h(739): warning C4250: 'PIPSocket' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>y:\root\ptlib\include\ptlib\ipsock.h(739): warning C4250: 'PIPSocket' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>y:\root\ptlib\include\ptlib\ipdsock.h(136): warning C4250: 'PIPDatagramSocket' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>y:\root\ptlib\include\ptlib\ipdsock.h(136): warning C4250: 'PIPDatagramSocket' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>y:\root\ptlib\include\ptlib\udpsock.h(221): warning C4250: 'PUDPSocket' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>y:\root\ptlib\include\ptlib\udpsock.h(221): warning C4250: 'PUDPSocket' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>y:\root\ptlib\include\ptlib\icmpsock.h(146): warning C4250: 'PICMPSocket' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>y:\root\ptlib\include\ptlib\icmpsock.h(146): warning C4250: 'PICMPSocket' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>y:\root\ptlib\include\ptlib\tcpsock.h(190): warning C4250: 'PTCPSocket' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>y:\root\ptlib\include\ptlib\tcpsock.h(190): warning C4250: 'PTCPSocket' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>y:\root\ptlib\include\ptlib\ethsock.h(324): warning C4250: 'PEthSocket' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>y:\root\ptlib\include\ptlib\ethsock.h(324): warning C4250: 'PEthSocket' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>y:\root\ptlib\include\ptclib\pnat.h(435): warning C4250: 'PNATUDPSocket' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>y:\root\ptlib\include\ptclib\pnat.h(435): warning C4250: 'PNATUDPSocket' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>y:\root\ptlib\include\ptclib\pnat.h(461): warning C4250: 'PNATUDPSocket_Null' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>y:\root\ptlib\include\ptclib\pnat.h(461): warning C4250: 'PNATUDPSocket_Null' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>y:\root\ptlib\include\ptclib\psockbun.h(535): warning C4250: 'PMonitoredSocketChannel' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>y:\root\ptlib\include\ptclib\psockbun.h(535): warning C4250: 'PMonitoredSocketChannel' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>y:\root\ptlib\include\ptclib\delaychan.h(224): warning C4250: 'PDelayChannel' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>y:\root\ptlib\include\ptclib\delaychan.h(224): warning C4250: 'PDelayChannel' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>y:\root\ptlib\include\ptclib\qchannel.h(131): warning C4250: 'PQueueChannel' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>y:\root\ptlib\include\ptclib\qchannel.h(131): warning C4250: 'PQueueChannel' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>y:\root\ptlib\include\ptclib\pstun.h(364): warning C4250: 'PSTUNUDPSocket' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>y:\root\ptlib\include\ptclib\pstun.h(364): warning C4250: 'PSTUNUDPSocket' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>y:\root\ptlib\include\ptclib\pstun.h(675): warning C4250: 'PTURNUDPSocket' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>y:\root\ptlib\include\ptclib\pstun.h(675): warning C4250: 'PTURNUDPSocket' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>y:\root\ptlib\include\ptclib\pssl.h(701): warning C4250: 'PSSLChannel' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>y:\root\ptlib\include\ptclib\pssl.h(701): warning C4250: 'PSSLChannel' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>y:\root\ptlib\include\ptclib\inetprot.h(407): warning C4250: 'PInternetProtocol' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>y:\root\ptlib\include\ptclib\inetprot.h(407): warning C4250: 'PInternetProtocol' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>y:\root\ptlib\include\ptclib\html.h(1043): warning C4250: 'PHTML' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>y:\root\ptlib\include\ptclib\html.h(1043): warning C4250: 'PHTML' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>y:\root\ptlib\include\ptclib\http.h(270): warning C4250: 'PHTTP' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>y:\root\ptlib\include\ptclib\http.h(270): warning C4250: 'PHTTP' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>y:\root\ptlib\include\ptclib\http.h(665): warning C4250: 'PHTTPClient' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>y:\root\ptlib\include\ptclib\http.h(665): warning C4250: 'PHTTPClient' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>y:\root\ptlib\include\ptclib\http.h(983): warning C4250: 'PHTTPServer' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>y:\root\ptlib\include\ptclib\http.h(983): warning C4250: 'PHTTPServer' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>y:\root\ptlib\include\ptlib\sound.h(749): warning C4250: 'PSoundChannel' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>y:\root\ptlib\include\ptlib\sound.h(749): warning C4250: 'PSoundChannel' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\Simple OPAL Static\Win32\Debug\simple.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\..\bin\Simple OPAL Static\Win32\Debug\simple.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\bin\Simple OPAL Static\Win32\Debug\simple.lib" /MACHINE:X86 "..\..\bin\Simple OPAL Static\Win32\Debug\main.obj"
+         "..\..\bin\Simple OPAL Static\Win32\Debug\precompile.obj"
+         Y:\root\ptlib\Lib\ptlibsd.lib
+         Y:\root\opal\lib\opalsd.lib
+     1>LINK : fatal error LNK1104: cannot open file 'Y:\root\ptlib\Lib\ptlibsd.lib'
+     1>Done Building Project "Y:\root\opal\samples\simple\simple_2010.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:37.80
